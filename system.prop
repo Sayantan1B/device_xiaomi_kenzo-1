@@ -1,0 +1,44 @@
+# Audio
+audio.offload.disable=1
+audio.offload.multiaac.enable=true
+audio.offload.pcm.16bit.enable=true
+audio.offload.pcm.24bit.enable=true
+audio.offload.video=true
+persist.audio.fluence.audiorec=false
+persist.audio.fluence.spk.mono=true
+persist.audio.fluence.voicerec=false
+voice.voip.conc.disabled=true
+
+# Camera HAL1
+camera.hal1.packagelist=com.skype.raider,com.google.android.GoogleCamera,com.tencent.mm
+
+# Codecs
+av.debug.disable.pers.cache=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-http=true
+media.stagefright.enable-player=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-scan=true
+mm.enable.qcom_parser=1048575
+persist.mm.enable.prefetch=true
+
+# Radio
+persist.radio.cs_srv_type=1
+persist.radio.force_on_dc=true
+persist.radio.redir_party_num=0
+persist.radio.start_ota_daemon=1
+
+# RmNet Data
+persist.data.df.agg.dl_pkt=10
+persist.data.df.agg.dl_size=4096
+persist.data.df.dev_name=rmnet_usb0
+persist.data.df.dl_mode=5
+persist.data.df.iwlan_mux=9
+persist.data.df.mux_count=8
+persist.data.df.ul_mode=5
+persist.data.wda.enable=true
+persist.rmnet.data.enable=true
+
+# WFD Display
+persist.sys.wfd.virtual=0
